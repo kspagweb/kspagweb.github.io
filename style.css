@@ -1,0 +1,481 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'GreatVibes';
+    src: url("Fonts/Great_Vibes/GreatVibes-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'DMSans';
+    src: url(Fonts/DM_Sans/DMSans-Regular.ttf);
+}
+
+
+
+body {
+    background-color: white;
+}
+
+header {
+    padding: 1%;
+    text-align: center;
+}
+
+nav {
+    color: #EEA4A9;
+    padding: 1%;
+    text-align: right;
+    background-color: #EEA4A9;
+    position: sticky;
+    top: 0;
+
+}
+
+nav a {
+    color: #fff;
+    font-family: DMSans;
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 1%;
+}
+
+nav a:hover {
+    background-color: white;
+    color:#6A6565;
+}
+
+h1 {
+    color: #6A6565;
+    font-size: 5em;
+    font-family: GreatVibes;
+    font-weight: 100;
+    margin-bottom: 1%;
+    margin-top: 1%
+}
+
+#portada {
+    display: grid;
+    
+}
+
+#fotoprincipal {
+    background-image: url(IMG/principalmio.png);
+    background-size:cover;
+    height: 700px;
+    background-position:center
+    background-repeat: no-repeat;
+}
+
+#cuadrodetexto {
+    position: absolute;
+    top:25%;
+    left: 60%;
+    text-align: center;
+     max-width: 35%
+}
+
+#cuadrodetexto h2 {
+    color: #6A6565;
+    margin-top: 30%;
+    font-size: 2em;
+}
+
+#banner {
+background-image: url(IMG/confetti.jpg);
+padding: 5%;
+    background-repeat:repeat-x;
+}
+
+#quiensoy {
+    display:grid;
+    background-color: #E4E2E3;
+    grid-template-columns: 50% auto;
+    padding: 5%;
+}
+
+#columnablanca {
+    height: 520px;
+    background-color: #fff;
+    text-align: center;
+    padding: 10%;
+    display: grid;
+    align-content: center;
+}
+
+h3 {
+    font-family: DMSans;
+    color: #B58385;
+    font-size: 2em;
+    font-weight: bold;
+    margin-right: 8%;
+}
+
+#columnablanca p {
+    font-family: DMSans;
+    color: #6B6C6C;
+    font-size: 1.2em;
+    margin-right: 8%;
+    
+}
+
+#foto {
+    background-image: url(IMG/gris%201.png);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    margin-left: -60px;
+    margin-right: 30px;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    border-radius: 5%;
+}
+
+#contacto {
+    background-color: #6B6C6C;
+    padding: 1%;
+    color:white;
+    font-family: DMSans;
+    font-size: 1.2em;
+    font-weight: 400;
+    max-width: 40%;
+    border-radius: 25px;
+    border: none;
+    position: absolute;
+    margin-left: 64%;
+    margin-top: 26%
+}
+
+.experiencia {
+    background-image: url(IMG/background.jpg);
+    background-size: cover;
+    padding: 9% 3%;
+    font-family: 'DMSans';
+    color:#6C7979;
+}
+
+#arriba {
+    font-size: 1.5em;
+    display: grid;
+    padding: 0;
+    font-weight: 500;
+    grid-template-columns: auto auto;
+    column-gap: 13%;
+    margin bottom:0;
+}
+
+#expe {
+    margin-left: -190px;
+}
+
+.bloque {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 2%;
+    max-height: 90%;
+   }
+
+.columnaizq1 {
+    background-color: white;
+    padding: 5%;
+    max-width: 75%;
+
+}
+
+.columnaizq2 {
+    background-color: #CDE9E6;
+    padding: 5%;
+    max-width: 75%;
+}
+
+.columnader1 {
+    background-color: #CDE9E6;
+    padding: 5%;
+    max-width: 150%;
+    margin-left: -20%;
+}
+
+.columnader2 {
+    background-color: white;
+    padding: 5%;
+    max-width: 150%;
+    margin-left: -20%;
+}
+
+#titulo {
+    background-image: url(IMG/background.jpg);
+    background-size: cover;
+    font-family: DMSans;
+    color: white;
+    font-size: 2.2em;
+    text-align: center;
+    padding: 2%;
+}
+
+#caja {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 2%;
+    text-align: center;
+    justify-items: center;
+    padding-bottom: 0;
+}
+
+#fotouno {
+    background-image: url(IMG/Group%2010.jpg);
+    background-size: cover;
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    margin: 8%;
+    border-radius: 50%;
+    box-shadow: 10px 2px #6EB3A8;
+}
+
+#fotodos {
+    background-image: url(IMG/familiar.png);
+    background-size: cover;
+    background-position: 0% 30%;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    margin: 8%;
+    border-radius: 50%;
+    box-shadow: 10px 2px #6EB3A8;
+}
+
+#fototres {
+    background-image: url(IMG/Group%2011.png);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    margin: 8%;
+    border-radius: 50%;
+    box-shadow: 10px 2px #6EB3A8;
+}
+
+.texto {
+    font-family: DMSans;
+    color: #6EB3A8;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 105%;
+}
+
+p {
+    font-family: DMSans;
+    color: #6B6C6C;
+    font-size: 1em;
+}
+
+#saber {
+    display: grid;
+    grid-auto-rows: auto;
+    justify-items: center;
+    padding: 2%;
+    background-color: #6EB3A8;
+    border: none;
+}
+
+#marsupial {
+    background-color: #E4E2E3;
+    margin-top: 10%;
+}
+
+#ludo {
+    background-color: #486B98;
+    color: white;
+    font-family: DMSans;
+    font-size: 2em;
+    text-align: center;
+    padding: 1%;
+}
+
+#imagen {
+    background-image: url(IMG/fotos.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1699px;
+    height: 1088px;
+    margin: 4%;
+    padding: 2%
+}
+
+#titulouno {
+    font-family: DMSans;
+    font-size: 2em;
+    color: #6A6565;
+    font-weight: 550;
+    position: absolute;
+    margin-left: 608px;
+    margin-top: 48px;
+}
+
+#puno {
+    font-family: DMSans;
+    font-size: 1.2em;
+    color: #6A6565;
+    font-weight: 550;
+    position: absolute;
+    margin-left: 608px;
+    margin-top: 130px;
+    margin-right:796px;
+}
+
+#pagina {
+    position: absolute;
+    margin-left: 608px;
+    margin-top: 200px;
+    background-color: #6B6C6C;
+    font-family: DMSans;
+    font-weight: 550;
+    color: white;
+    font-size: 1.1em;
+    padding: 0.5%;
+    border-radius: 20px;
+}
+
+#titulodos {
+    font-family: DMSans;
+    font-size: 2em;
+    color: #6A6565;
+    font-weight: 550;
+    position: absolute;
+    margin-left: 1269px;
+    margin-top: 432px;
+    margin-right: 174px;
+}
+
+#pdos {
+    font-family: DMSans;
+    font-size: 1.2em;
+    color: #6A6565;
+    font-weight: 550;
+    position: absolute;
+    margin-left: 1270px;
+    margin-top: 534px;
+    margin-right:136px;
+}
+
+#email {
+    position: absolute;
+    margin-left: 1270px;
+    margin-top: 618px;
+    background-color: #6B6C6C;
+    font-family: DMSans;
+    font-weight: 550;
+    color: white;
+    font-size: 1.1em;
+    padding: 0.5% 1.2%;
+    border-radius: 20px;
+}
+
+#titulotres {
+    font-family: DMSans;
+    font-size: 2em;
+    color: #fff;
+    font-weight: 550;
+    position: absolute;
+    margin-left: 529px;
+    margin-top: 818px;
+    margin-right: 844px;
+}
+
+#ptres {
+    font-family: DMSans;
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 550;
+    position: absolute;
+    margin-left: 529px;
+    margin-top: 964px;
+    margin-right:854px;
+}
+
+#titulocuatro {
+    font-family: DMSans;
+    font-size: 1.6em;
+    color: #fff;
+    font-weight: 550;
+    position: absolute;
+    margin-left: 219px;
+    margin-top: 798px;
+    margin-right: 1339px;
+}
+
+#pcuatro {
+    font-family: DMSans;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 550;
+    position: absolute;
+    margin-left: 219px;
+    margin-top: 948px;
+    margin-right:1339px;
+}
+
+.newsletter {
+    background-image: url(IMG/podcast.jpg);
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cta {
+    background: rgba(255,0,0, 0.4);
+    color: #6A6565;
+    font-family: DMSans;
+    padding: 2%;
+    text-align: center;
+    font-size: 2em
+        
+}
+
+#cta p {
+  margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+.botoncito {
+    background-color: #6A6565;
+    padding: 1%;
+    border-radius: 3em;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.botoncito:hover {
+    background-color: white
+    color: #6A6565;
+}
+
+#rrss {
+    background-color: white;
+    color: #6A6565;
+    font-family: DMSans;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    padding: 1%;
+    background-color: #E7C887;
+}
+
+#iconos {
+    width: 100%;
+    text-align: center;
+}
+
+#iconos img {
+    width: 20%;
+    justify-items: center;
+    padding: 1%;
+}
